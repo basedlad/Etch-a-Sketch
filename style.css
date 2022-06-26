@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container {
+  margin-top: 30px;
+  display: grid;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+.square {
+  border: 1px solid gray;
+  min-height: 20px;
+  min-width: 20px;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.colored {
+  background-color: black;
+}
